@@ -4,66 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <header>
-        <h1>MINECRAFT</h1>
-        <img src="src/img/LOGO.jpg" alt="">
-        <h2>MENÚ</h2>
-        <nav>
-            <ul>
-                <a href="TutorialMinecraft.html"><li>INICIO</li></a>
-                <a href="Preguntas.html"><li>PREGUNTAS</li></a>
-                <a href="Consejos.html"><li>CONSEJOS</li></a>
-                <a href="Resumen.html"><li>INFROMACIÓN</li></a>
+        <div class="logo">
+            <h1 class="logo__texto">MINECRAFT</h1>
+            <img class="logo__avatar" src="src/img/LOGO.jpg" alt="">
+        </div>
+        <nav class="menu">
+            <ul >
+                <a class="menu__opciones" href="TutorialMinecraft.html"><li>INICIO</li></a>
+                <a class="menu__opciones" href="Preguntas.html"><li>PREGUNTAS</li></a>
+                <a class="menu__opciones" href="Consejos.html"><li>CONSEJOS</li></a>
+                <a class="menu__opciones" href="Resumen.html"><li>INFROMACIÓN</li></a>
             </ul>
         </nav>
     </header>
     <section>
-        <article>
-            <h2>CONSEJOS BÁSICOS</h2>
-            <dl>
-                <dt>Recoge recursos eficientemente:</dt>
-            <dd>
-                <li>Utiliza una pala adecuada para minar bloques de tierra y grava más rápido.</li>
-                <li>Encanta tus herramientas con el encantamiento "Fortuna" para aumentar la cantidad de recursos que obtienes al minar.</li>
-            </dd>
-            <dt>Construcción:</dt>
-            <dd>
-                <li>Utiliza bloques de luz, como antorchas o lámparas de redstone, para mantener las áreas bien iluminadas y prevenir que aparezcan monstruos.</li>
-                <li>Experimenta con diferentes estilos arquitectónicos y materiales para darle personalidad a tus construcciones.</li>
-            </dd>
-            <dt>Exploración:</dt>
-            <dd>
-                <li>Lleva siempre contigo una cama para poder dormir y establecer puntos de reaparición en tus exploraciones.</li>
-                <li>Crea mapas en blanco y llénalos para ayudarte a navegar por nuevas áreas.</li>
-            </dd>
-            <dt>Granjas y cultivos:</dt>
-            <dd>
-                <li>Crea una granja automática para cultivos y animales usando mecanismos de redstone y dispensadores.</li>
-                <li>Utiliza el agua y el sistema de canales para regar tus cultivos automáticamente.</li>
-            </dd>
-            <dt>Combate:</dt>
-            <dd>
-                <li>Bloquea los ataques manteniendo presionado el clic derecho al usar un escudo.</li>
-                <li>Utiliza la variedad de armas disponibles en el juego para adaptarte a diferentes situaciones de combate.</li>
-            </dd>
-            <dt>Minería y recursos:</dt>
-            <dd>
-                <li>Explora minas en busca de diamantes, pero asegúrate de llevar suficientes antorchas y comida.</li>
-                <li>Crea una mina en forma de escalera o espiral para maximizar la eficiencia en la búsqueda de recursos.</li>
-            </dd>
+        <article class="consejo">
+            <h2 class="titulo__principal">CONSEJOS BÁSICOS</h2>
+            <dl class="consejos">
+                <dt class="pregunta">Recoge recursos eficientemente:</dt>
+                <dd class="respuesta">
+                    <li>Utiliza una pala adecuada para minar bloques de tierra y grava más rápido.</li>
+                    <li>Encanta tus herramientas con el encantamiento "Fortuna" para aumentar la cantidad de recursos que obtienes al minar.</li>
+                </dd>
+                <dt class="pregunta">Construcción:</dt>
+                <dd class="respuesta">
+                    <li>Utiliza bloques de luz, como antorchas o lámparas de redstone, para mantener las áreas bien iluminadas y prevenir que aparezcan monstruos.</li>
+                    <li>Experimenta con diferentes estilos arquitectónicos y materiales para darle personalidad a tus construcciones.</li>
+                </dd>
+                <dt class="pregunta">Exploración:</dt>
+                <dd class="respuesta">
+                    <li>Lleva siempre contigo una cama para poder dormir y establecer puntos de reaparición en tus exploraciones.</li>
+                    <li>Crea mapas en blanco y llénalos para ayudarte a navegar por nuevas áreas.</li>
+                </dd>
+                <dt class="pregunta">Granjas y cultivos:</dt>
+                <dd class="respuesta">
+                    <li>Crea una granja automática para cultivos y animales usando mecanismos de redstone y dispensadores.</li>
+                    <li>Utiliza el agua y el sistema de canales para regar tus cultivos automáticamente.</li>
+                </dd>
+                <dt class="pregunta">Combate:</dt>
+                <dd class="respuesta">
+                    <li>Bloquea los ataques manteniendo presionado el clic derecho al usar un escudo.</li>
+                    <li>Utiliza la variedad de armas disponibles en el juego para adaptarte a diferentes situaciones de combate.</li>
+                </dd>
+                <dt class="pregunta">Minería y recursos:</dt>
+                <dd class="respuesta">
+                    <li>Explora minas en busca de diamantes, pero asegúrate de llevar suficientes antorchas y comida.</li>
+                    <li>Crea una mina en forma de escalera o espiral para maximizar la eficiencia en la búsqueda de recursos.</li>
+                </dd>
             </dl>
         </article>
     </section>
     <footer>
-        <h2>SÍGUEME</h2>
-        <nav>
+        <div class="final">
+            <h2 class="texto__sigueme">SÍGUEME</h2>
+        </div>
+        <nav class="personal">
             <ul>
-                <a href="https://www.facebook.com/profile.php?id=100087913196808&mibextid=ZbWKwL"><li>FACEBOOK</li></a>
-                <a href="https://twitter.com/RCarlosOC?t=KxIGPgFW5nik9yUk3ZEc5Q&s=09"><li>X</li></a>
-                <a href="https://instagram.com/carlos.blablabla?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><li>INSTAGRAM</li></a>
-                <a href="https://github.com/rcarlos7"><li>GITHUB</li></a>
+                <a class="personal__opciones" href="https://www.facebook.com/profile.php?id=100087913196808&mibextid=ZbWKwL"><li>FACEBOOK</li></a>
+                <a class="personal__opciones" href="https://twitter.com/RCarlosOC?t=KxIGPgFW5nik9yUk3ZEc5Q&s=09"><li>X</li></a>
+                <a class="personal__opciones" href="https://instagram.com/carlos.blablabla?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><li>INSTAGRAM</li></a>
+                <a class="personal__opciones" href="https://github.com/rcarlos7"><li>GITHUB</li></a>
             </ul>
         </nav>
     </footer>
