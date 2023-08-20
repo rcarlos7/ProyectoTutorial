@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: #141313;
+
+}
+.logo{
+    text-align: left;
+
+}
+.logo__avatar{
+
+}
+.logo__texto{
+    color: white;
+}
+.menu{
+    text-align: right;
+
+}
+.menu__opciones{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+
+}
+.titulo{
+    text-align: left;
+}
+.titulo__principal{
+    color: white;
+}
+.titulo__secundario{
+    color: white;
+}
+.img{
+    text-align: right;
+}
+.img__principal{
+
+}
+.texto__descarga{
+    text-align: left;
+    color: white;
+}
+.descarga{
+    text-align: right;
+}
+.descarga__opciones{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.pregunta{
+    color: white;
+}
+.respuesta{
+    color: white;
+}
+.resumen{
+    text-align: center;
+}
+.resumenes{
+    text-align: left;
+}
+.preguntas{
+    text-align: center;
+}
+.preguntas__juego{
+    text-align: left;
+}
+.consejo{
+    text-align: center;
+}
+.consejos{
+    text-align: left;
+}
+.contactenos{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+footer{
+    background-color: #141313;
+}
+.final{
+    text-align: left;
+}
+.texto__sigueme{
+    color: white;
+}
+.personal{
+    text-align: right;
+}
+.personal__opciones{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
