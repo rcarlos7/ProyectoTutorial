@@ -6,12 +6,6 @@
     --color--letra:white;
     --color--button:#8A8E9C;
 }
-@media (min-width:768px){
-    .logo__avatar{
-        width: 40%;
-    }
-}
-
 body{
     background-color: black;
 }
